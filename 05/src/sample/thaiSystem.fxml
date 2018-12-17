@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<BorderPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ThaiSystemController">
+
+    <top>
+        <Label prefHeight="60.0" prefWidth="97.0" text="Thai System" BorderPane.alignment="CENTER" />
+    </top>
+    <center>
+        <GridPane BorderPane.alignment="CENTER">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="97.0" minHeight="7.0" prefHeight="68.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="197.0" minHeight="10.0" prefHeight="68.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="220.0" minHeight="10.0" prefHeight="68.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="178.0" minHeight="26.0" prefHeight="73.0" />
+            <RowConstraints maxHeight="77.0" minHeight="72.0" prefHeight="74.0" />
+            </rowConstraints>
+            <children>
+                <Label alignment="CENTER" prefHeight="39.0" prefWidth="85.0" text="สลึง" />
+                <Label fx:id="slungLabel" text="0" GridPane.columnIndex="1" />
+                <Label alignment="CENTER" prefHeight="39.0" prefWidth="85.0" text="บาท" GridPane.rowIndex="1" />
+                <Label alignment="CENTER" prefHeight="39.0" prefWidth="85.0" text="ตำลึง" GridPane.rowIndex="2" />
+                <Label fx:id="bahtLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                <Label fx:id="tamlungLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                <Label alignment="CENTER" prefHeight="39.0" prefWidth="85.0" text="ชั่ง" GridPane.rowIndex="3" />
+                <Label fx:id="changLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                <Label alignment="CENTER" prefHeight="39.0" prefWidth="85.0" text="หาบ" GridPane.rowIndex="4" />
+                <Label fx:id="haabLabel" text="0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            </children>
+        </GridPane>
+    </center>
+
+</BorderPane>

@@ -1,0 +1,14 @@
+﻿Strategy Pattern
+Arrays.sort(arr, new Comparator() {..})
+Collections.sort(col, new Comparator() {..})
+
+Anonymous Class คลาสที่ไม่ระบุชื่อ <-- เหมาะสำหรับเมทอดที่เรียกใช้ครั้งเดียว
+
+class StudentScoreComparator extends Comparator {
+	@Override
+	public compare (Object o1, Object o2){
+		...
+	}
+}
+
+ex. Arrays.sort(arr, new StudentScoreComparator());

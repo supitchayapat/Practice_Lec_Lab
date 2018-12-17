@@ -1,0 +1,7 @@
+test1
+test2
+test3[16:19:37.803]Current Dir : C:\Users\USER\Desktop\Java\lab10_5810450202
+test6
+1 test print format[16:47:14.678]Current Dir : C:\Users\USER\Desktop\Java\lab10_5810450202
+test6
+1 test print format
